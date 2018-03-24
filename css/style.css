@@ -1,0 +1,179 @@
+body { 
+  padding: 0cm, 0cm;
+  margin: 0px auto 0px auto;
+  background-color: #FFFFFF;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+input,
+textarea,
+[contenteditable] {
+  caret-color: #4CAF50;
+  width: 5px;
+}
+
+.img-container {
+  margin: 20px auto 5px auto ;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 15%;
+  left: 50%;
+}
+
+.avatar {
+  border-radius: 15%;
+}
+.app-title {
+  font-size: 80px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 0px; sans-serif;
+  font-size: 50px;
+  left: 50%;
+}
+
+.container {
+  width: 500px;
+  height: 15px;
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+.button-container {
+  width: 300px;
+  height: 15px;
+  margin: 5px auto 40px auto;
+  text-align: center;
+}
+
+.disabled {
+  color: grey;
+}
+
+button {
+    font-size: 30px;
+    background-color: #FFFFFF;
+    color: #4CAF50;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+a {
+  color:#4CAF50;
+}
+
+
+.login-container {
+  margin: 20px auto 0px auto;
+  width: 400px; 
+  height: 200px; 
+  border: solid 1px gray; 
+  border-radius: 15px; 
+  
+}
+
+#top-box {
+  height: 100px; 
+  margin: 0px;
+  border:0px; 
+  border-bottom: solid 1px gray; 
+  
+}
+
+input[type=text] {
+    width: 78%;
+    height: 40px;
+    margin: 30px auto 20px auto;
+    left: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    float: right;
+}
+
+input[type=password] {
+    width: 78%;
+    height: 40px;
+    margin: 30px auto 20px auto;
+    left: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    float: right;
+}
+
+
+#label-box {
+  height: 60px;
+  border-right: 3px solid grey;
+  padding-left: 5px; 
+  padding-top: 40px;
+  padding-right: 15px;
+  float: left;
+  position: absolute;
+}
+
+#pass-box {
+  height: 60px;
+  border-right: 3px solid grey;
+  padding-left: 5px; 
+  padding-top: 40px;
+  padding-right: 7px;
+  float: left;
+  position: absolute;
+}
+#bottom-box {
+  height: 100px; 
+  margin: 0px;
+  border:0px; 
+}
+
+.button-box {
+  margin: 10px auto 10px auto;
+  border: 5px black solid;
+}
+#snackbar {
+    visibility: hidden; 
+    min-width: 250px; 
+    margin-left: -125px; 
+    background-color: #ad3003; 
+    color: #fff; 
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 50%; 
+    bottom: 30px; 
+    box-shadow: 3px 10px #d6d6d6;
+}
+#snackbar.show {
+    visibility: visible; 
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+
